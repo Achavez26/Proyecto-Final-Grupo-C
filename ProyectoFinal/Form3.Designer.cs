@@ -43,7 +43,7 @@ namespace ProyectoFinal
             // 
             this.btnVer.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnVer.Font = new System.Drawing.Font("Trebuchet MS", 9.8F, System.Drawing.FontStyle.Bold);
-            this.btnVer.Location = new System.Drawing.Point(320, 103);
+            this.btnVer.Location = new System.Drawing.Point(321, 102);
             this.btnVer.Margin = new System.Windows.Forms.Padding(2);
             this.btnVer.Name = "btnVer";
             this.btnVer.Size = new System.Drawing.Size(78, 28);

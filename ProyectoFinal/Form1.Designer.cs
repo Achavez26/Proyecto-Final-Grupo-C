@@ -226,7 +226,7 @@ namespace ProyectoFinal
             this.pictureBox2.Image = global::ProyectoFinal.Properties.Resources.WhatsApp_Image_2024_02_18_at_10_30_09_PM;
             this.pictureBox2.Location = new System.Drawing.Point(-6, -11);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(805, 410);
+            this.pictureBox2.Size = new System.Drawing.Size(792, 410);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 19;
             this.pictureBox2.TabStop = false;
@@ -244,7 +244,7 @@ namespace ProyectoFinal
             // Form1
             // 
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(798, 411);
+            this.ClientSize = new System.Drawing.Size(791, 411);
             this.Controls.Add(this.lklblSiguiente);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.pictureBox1);

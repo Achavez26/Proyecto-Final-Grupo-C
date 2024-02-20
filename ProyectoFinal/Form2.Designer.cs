@@ -46,10 +46,10 @@ namespace ProyectoFinal
             // 
             this.btnLista.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnLista.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLista.Location = new System.Drawing.Point(268, 95);
-            this.btnLista.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLista.Location = new System.Drawing.Point(260, 88);
+            this.btnLista.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLista.Name = "btnLista";
-            this.btnLista.Size = new System.Drawing.Size(138, 46);
+            this.btnLista.Size = new System.Drawing.Size(104, 37);
             this.btnLista.TabIndex = 0;
             this.btnLista.Text = "Ver Lista";
             this.btnLista.UseVisualStyleBackColor = false;
@@ -60,21 +60,21 @@ namespace ProyectoFinal
             this.dgvLista.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLista.GridColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dgvLista.Location = new System.Drawing.Point(136, 169);
-            this.dgvLista.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvLista.Location = new System.Drawing.Point(137, 163);
+            this.dgvLista.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvLista.Name = "dgvLista";
             this.dgvLista.RowHeadersWidth = 51;
             this.dgvLista.RowTemplate.Height = 24;
-            this.dgvLista.Size = new System.Drawing.Size(643, 236);
+            this.dgvLista.Size = new System.Drawing.Size(482, 192);
             this.dgvLista.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(102, 43);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(90, 34);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(149, 98);
+            this.pictureBox1.Size = new System.Drawing.Size(112, 80);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -83,10 +83,10 @@ namespace ProyectoFinal
             // 
             this.btnSalir.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.btnSalir.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.btnSalir.Location = new System.Drawing.Point(474, 95);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSalir.Location = new System.Drawing.Point(415, 88);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(138, 46);
+            this.btnSalir.Size = new System.Drawing.Size(104, 37);
             this.btnSalir.TabIndex = 3;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -94,38 +94,43 @@ namespace ProyectoFinal
             // 
             // pictureBox2
             // 
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(26, 366);
+            this.pictureBox2.Location = new System.Drawing.Point(541, 345);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(104, 72);
+            this.pictureBox2.Size = new System.Drawing.Size(78, 56);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(664, 57);
+            this.pictureBox3.Location = new System.Drawing.Point(572, 63);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(115, 107);
+            this.pictureBox3.Size = new System.Drawing.Size(66, 62);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumAquamarine;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(716, 427);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dgvLista);
             this.Controls.Add(this.btnLista);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
